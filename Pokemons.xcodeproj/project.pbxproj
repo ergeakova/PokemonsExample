@@ -14,9 +14,11 @@
 		C0A2693728970FE200367400 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A2693628970FE200367400 /* Utils.swift */; };
 		C0A269392897120A00367400 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A269382897120A00367400 /* Card.swift */; };
 		C0A2693D28973B1500367400 /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A2693C28973B1500367400 /* PokemonService.swift */; };
+		C0A26940289740BC00367400 /* PokemonResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A2693F289740BC00367400 /* PokemonResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C081C8CE28983E19007DCABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C0A2692428970EAF00367400 /* Pokemons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokemons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A2692728970EAF00367400 /* PokemonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsApp.swift; sourceTree = "<group>"; };
 		C0A2692928970EAF00367400 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +27,7 @@
 		C0A2693628970FE200367400 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		C0A269382897120A00367400 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		C0A2693C28973B1500367400 /* PokemonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
+		C0A2693F289740BC00367400 /* PokemonResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 		C0A2692628970EAF00367400 /* Pokemons */ = {
 			isa = PBXGroup;
 			children = (
+				C081C8CE28983E19007DCABE /* Info.plist */,
 				C0A2693E28973C3600367400 /* Models */,
 				C0A2693B28973AFE00367400 /* Services */,
 				C0A2693A2897120F00367400 /* Views */,
@@ -104,6 +108,7 @@
 		C0A2693E28973C3600367400 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C0A2693F289740BC00367400 /* PokemonResult.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 				C0A2692A28970EAF00367400 /* ContentView.swift in Sources */,
 				C0A2692828970EAF00367400 /* PokemonsApp.swift in Sources */,
 				C0A2693728970FE200367400 /* Utils.swift in Sources */,
+				C0A26940289740BC00367400 /* PokemonResult.swift in Sources */,
 				C0A269392897120A00367400 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +320,7 @@
 				DEVELOPMENT_TEAM = H2UQC3V4S3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pokemons/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -343,6 +350,7 @@
 				DEVELOPMENT_TEAM = H2UQC3V4S3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pokemons/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
