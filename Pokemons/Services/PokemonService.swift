@@ -12,17 +12,15 @@ class PokemonService: ObservableObject{
     let defaultUrl = "https://pokeapi.co/api/v2/pokemon/"
     var urlString = "https://pokeapi.co/api/v2/pokemon/"
     var allPokemonCount = 0
-
+    
     private init(){
         
     }
     
-    func getResults() async throws -> Pokemons{
-        print("url===>\(urlString)")
+    func getResults() async throws -> PokemonsResultModel{
         var url =  URL(string: urlString)
         let (data, _ ) = try await URLSession.shared.data(from: url! )
-        let result = try JSONDecoder().decode(Pokemons.self, from: data)
-       
+        let result = try JSONDecoder().decode(PokemonsResultModel.self, from: data)
         
         if let allCount = result.count as? Int{
             allPokemonCount = allCount
@@ -31,9 +29,13 @@ class PokemonService: ObservableObject{
         if let next = result.next as? String {
             urlString = next
         }
-        
-        print("urlString===>\(urlString)")
         return result
-     
+    }
+    
+    func getStats(url: String) async throws -> PokemonStatsModel{
+        var url =  URL(string: url)
+        let (data, _ ) = try await URLSession.shared.data(from: url! )
+        let result = try JSONDecoder().decode(PokemonStatsModel.self, from: data)
+        return result
     }
 }
