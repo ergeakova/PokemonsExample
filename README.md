@@ -21,9 +21,9 @@
   </tr>
   
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/49796366/182502315-e4a84dc8-7045-4462-9ba0-998eed35c683.gif" width="300"></td>
-    <td><img src="https://user-images.githubusercontent.com/49796366/182504013-cce44a10-d83b-48c4-b2b3-4bee3ecd13d5.gif" width="300"></td>
-    <td><img src="https://user-images.githubusercontent.com/49796366/182504166-797c297f-d92d-4ed6-aeb8-f0f5127b53ae.gif" width="300"></td>
+    <td><img src="https://user-images.githubusercontent.com/49796366/182502315-e4a84dc8-7045-4462-9ba0-998eed35c683.gif" width="250"></td>
+    <td><img src="https://user-images.githubusercontent.com/49796366/182504013-cce44a10-d83b-48c4-b2b3-4bee3ecd13d5.gif" width="250"></td>
+    <td><img src="https://user-images.githubusercontent.com/49796366/182504166-797c297f-d92d-4ed6-aeb8-f0f5127b53ae.gif" width="250"></td>
   </tr>  
 </table>
 
@@ -34,8 +34,8 @@
   </tr>
   
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/49796366/182504530-0b8bfa02-0147-422e-a536-7ccc0455e4a3.png" width="300"></td>
-    <td><img src="https://user-images.githubusercontent.com/49796366/182504582-ea8d7ee5-06cb-41d7-86c3-65fec7989cfa.png" width="600"></td>
+    <td><img src="https://user-images.githubusercontent.com/49796366/182504530-0b8bfa02-0147-422e-a536-7ccc0455e4a3.png" width="250"></td>
+    <td><img src="https://user-images.githubusercontent.com/49796366/182504582-ea8d7ee5-06cb-41d7-86c3-65fec7989cfa.png" width="500"></td>
   </tr>  
 </table>
 
@@ -46,17 +46,7 @@
   </tr>
   
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/49796366/182504922-2533e037-13be-45fa-9d5a-8c0b94ed63ca.png" width="300"></td>
-    <td><img src="https://user-images.githubusercontent.com/49796366/182504837-6b303dc7-474c-47aa-9fee-117f9668b359.png" width="600"></td>
+    <td><img src="https://user-images.githubusercontent.com/49796366/182504922-2533e037-13be-45fa-9d5a-8c0b94ed63ca.png" width="250"></td>
+    <td><img src="https://user-images.githubusercontent.com/49796366/182504837-6b303dc7-474c-47aa-9fee-117f9668b359.png" width="500"></td>
   </tr>  
 </table>
-
-
-
-
-
-
-
-
-
-
