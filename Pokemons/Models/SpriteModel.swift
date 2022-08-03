@@ -9,4 +9,5 @@ import Foundation
 
 struct SpriteModel: Codable{
     let front_default: String
+    let back_default: String
 }
